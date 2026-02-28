@@ -10,7 +10,7 @@ services:
       - ./minecraft/config:/config
     mem_limit: ${MEMORY}
     env_file:
-      - ./minecraft/minecraft.env
+      - ./.env
     environment:
       MEMORY: ${MEMORY}
       RCON_PASSWORD: ${RCON_PASSWORD}
